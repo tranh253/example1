@@ -24,15 +24,7 @@
         <div id="content" class="container">
             Start
         </div>
-        <?php
-        $theButton=$_POST['btnSend'];
-        if(isset($theButton)){
-
-$chosen=$_POST['country'];
-echo 'You have chosen: '.$chosen;
-unset($theButton);
-        }
-?>
+        
             <div id="footer">
             <hr> OAMK 2017
             </div>
