@@ -3,11 +3,11 @@
 <?php
 include 'cat.php';
 $myCat=new Cat();
-<<<<<<< HEAD
+
 $myCat->SetColor('Black');
-=======
+
 $myCat->SetColor('orange');
->>>>>>> master
+
 $myCat->SetName('Garfield');
 echo 'The color of my cat is '.' '.$myCat->GetColor().' ';
 echo 'And the name is '.' '.$myCat->GetName();
