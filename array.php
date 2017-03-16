@@ -9,7 +9,7 @@ $student=array(
 ?>
 <h3>Print one name from the array</h3>
 <?php
-echo'The first firstname is'.$student[0]['fname'];
+echo'The first firstname is'.' '.$student[0]['fname'];
 ?>
 <h3>Print the whole array</h3>
 <?php
@@ -18,8 +18,8 @@ foreach($student as $row)
     echo $row['fname'].' '.$row['lname'].'<br>';
 }
 ?>
-<<h3>Name in the</h3>
-<table border=1>
+<h3>Name in the</h3>
+<table class="table table-striped table-hover">
     <tr><th>First name</th> <th>Last name</th></tr>
     <?php 
     foreach($student as $row)
